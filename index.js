@@ -13,7 +13,11 @@ numbers.sort( function( a , b){
 });
 
 console.log(numbers);
+  
+  window.alert(console.log(numbers);)
 
+    
+  
 
 
 
