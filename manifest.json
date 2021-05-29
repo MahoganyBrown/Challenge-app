@@ -1,7 +1,9 @@
 {
   "name": "Ascending numbers",
-  "short_name": Ascending numbers,
-  "start_url": ".".
-  "background_color": "black"
-  "theme_color": "white"
+  "short_name": "Ascending numbers",
+  "start_url": ".",
+  "background_color": "black",
+  "theme_color": "white",
+  "display": "standalone",
+  
 }
