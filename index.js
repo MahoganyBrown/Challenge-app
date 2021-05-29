@@ -3,17 +3,14 @@ function addNumbers() {
   var n2 = document.getElementById("num2").value;
   var n3 = document.getElementById("num3").value;
      
-   
-}
+  
+  var numArray = [n1, n2, n3];
+  numArray.sort(function(a, b) {
+  return a - b;
 
-function returnSorted() {
-  let numbers = [n1, n2, n3]
+});
 
-  let sortednumbers = numbers.sort((a, b) => a - b);
+  console.log(numArray);
   
-  return sortednumbers 
-  
-  
-  
-}
+
   
