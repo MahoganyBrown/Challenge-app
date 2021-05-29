@@ -3,8 +3,9 @@ function addNumbers() {
   var n2 = document.getElementById("num2").value;
   var n3 = document.getElementById("num3").value;
 }   
-  
-let numbers = [n1, n2 , n3 ];
+
+function ascNumbers() { 
+let numbers = [n1, n2 , n3];
 numbers.sort( function( a , b){
     if(a > b) return 1;
     if(a < b) return -1;
