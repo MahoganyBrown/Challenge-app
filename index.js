@@ -5,16 +5,14 @@ function addNumbers() {
 }   
 
 function ascNumbers() { 
-let numbers = [n1, n2 , n3];
-numbers.sort( function( a , b){
-    if(a > b) return 1;
-    if(a < b) return -1;
-    return 0;
+var Arr = [n1, n2 , n3];
+Arr.sort( function(a,b){
+    return b-a;
 });
 
-console.log(numbers);
+var order = console.log(Arr);
   
-  window.alert(console.log(numbers);)
+  window.alert(order)
 
     
   
